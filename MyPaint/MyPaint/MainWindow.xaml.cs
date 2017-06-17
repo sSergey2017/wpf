@@ -42,7 +42,7 @@ namespace MyPaint
 
         private void buttonSave_Click(object sender, RoutedEventArgs e)
         {
-            string imgPath = @"D:\Lessons\wpfLessons\file.bmp"; //Куда сохраняется файл
+            string imgPath = @"E:\wpf\file.bmp"; //Куда сохраняется файл
             MemoryStream ms = new MemoryStream();  //Поток памяти :)
             FileStream fs = new FileStream(imgPath, FileMode.Create); //  Поток файла :)
 
@@ -85,6 +85,14 @@ namespace MyPaint
             this.inkCanvas1.DefaultDrawingAttributes.Color = clr;
         }
 
+        private void sld_Width_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            var slider = sender as Slider;
+            string crlName = slider.Name; //Определяем имя контрола, который покрутили
+            double value = slider.Value; // Получаем значение контрола
+            this.inkCanvas1.DefaultDrawingAttributes.Width = value;
+        }
+
         // для примера, все рядом
         public class ColorRGB
         {
@@ -98,12 +106,6 @@ namespace MyPaint
         public Color clr { get; set; }
 
 
-        private void sld_Width_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            var slider = sender as Slider;
-            string crlName = slider.Name; //Определяем имя контрола, который покрутили
-            double value = slider.Value; // Получаем значение контрола
-            this.inkCanvas1.DefaultDrawingAttributes.Width = value;
-        }
+
     }
 }

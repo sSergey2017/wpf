@@ -26,3 +26,17 @@ E:\дз\MyPaint\MyPaint\obj\Debug\MyPaint.Properties.Resources.resources
 E:\дз\MyPaint\MyPaint\obj\Debug\MyPaint.csproj.GenerateResource.Cache
 E:\дз\MyPaint\MyPaint\obj\Debug\MyPaint.exe
 E:\дз\MyPaint\MyPaint\obj\Debug\MyPaint.pdb
+E:\wpf\wpf\MyPaint\MyPaint\bin\Debug\MyPaint.exe.config
+E:\wpf\wpf\MyPaint\MyPaint\bin\Debug\MyPaint.exe
+E:\wpf\wpf\MyPaint\MyPaint\bin\Debug\MyPaint.pdb
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.csprojResolveAssemblyReference.cache
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MainWindow.g.cs
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\App.g.cs
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint_MarkupCompile.cache
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint_MarkupCompile.lref
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MainWindow.baml
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.g.resources
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.Properties.Resources.resources
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.csproj.GenerateResource.Cache
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.exe
+E:\wpf\wpf\MyPaint\MyPaint\obj\Debug\MyPaint.pdb
