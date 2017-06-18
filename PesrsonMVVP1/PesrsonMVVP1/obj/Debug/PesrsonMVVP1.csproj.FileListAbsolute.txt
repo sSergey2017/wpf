@@ -1,0 +1,14 @@
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\bin\Debug\PesrsonMVVP1.exe.config
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\bin\Debug\PesrsonMVVP1.exe
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\bin\Debug\PesrsonMVVP1.pdb
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.csprojResolveAssemblyReference.cache
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\View\MainWindow.g.cs
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\App.g.cs
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1_MarkupCompile.cache
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1_MarkupCompile.lref
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\View\MainWindow.baml
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.g.resources
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.Properties.Resources.resources
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.csproj.GenerateResource.Cache
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.exe
+E:\wpf_Lessons\PesrsonMVVP1\PesrsonMVVP1\obj\Debug\PesrsonMVVP1.pdb

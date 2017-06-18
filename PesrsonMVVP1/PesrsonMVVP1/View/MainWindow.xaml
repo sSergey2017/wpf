@@ -1,0 +1,70 @@
+﻿<Window x:Class="PesrsonMVVP1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:local="clr-namespace:PesrsonMVVP1"
+        mc:Ignorable="d"
+        Title="Pesron" Height="350" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ListView x:Name ="person" Grid.Column ="0" ItemsSource="{Binding Person}" SelectedItem="{Binding SelectedPerson}" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="ID: " />
+                        <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="FName: " />
+                        <TextBlock Text="{Binding FName}" FontWeight="Bold" />
+                        <TextBlock Text="SName: " />
+                        <TextBlock Text="{Binding SName}" FontWeight="Bold" />
+                        <TextBlock Text="LName: " />
+                        <TextBlock Text="{Binding LName}" FontWeight="Bold" />
+                        <TextBlock Text="Age: " />
+                        <TextBlock Text="{Binding Age}" FontWeight="Bold" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" DataContext="{Binding ElementName=person, Path=SelectedItem}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Id" />
+                <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Id}" />
+                <Label Grid.Row="1" Grid.Column="0" Content="Name" />
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding FName}" />
+                <Label Grid.Row="2" Grid.Column="0" Content="Family" />
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding FName}" />
+                <Label Grid.Row="3" Grid.Column="0" Content="Father" />
+                <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding SName}" />
+                <Label Grid.Row="4" Grid.Column="0" Content="Age" />
+                <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Age}" />
+            </Grid>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <Button Content="Add" Margin="3" Command="{Binding AddPersonCommand}" Width="60" />
+                <Button Content="Edit" Margin="3" Command="{Binding EditPersonCommand}" Width="60" />
+                <Button Content="Delete" Margin="3" Command="{Binding RemovePersonCommand}" Width="60" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
